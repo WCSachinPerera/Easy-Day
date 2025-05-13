@@ -1,0 +1,403 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  background: linear-gradient(
+          90deg,
+          #c6e5f3 0%,
+          #529dda 35%,
+          #084a83 100%
+        );
+  
+}
+nav {
+  background: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 5px;
+  padding-left: 5px;
+  overflow: hidden;
+  
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a {
+  backface-visibility: hidden;
+  height: 200px;
+  width: 250px;
+}
+.logo:hover{
+  transform:scale(1.1);
+}
+.search input{
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+.search button a {
+  color: #084a83;
+  font-weight: bold;
+  font-size: 15px;
+}
+::placeholder{
+  color: #084a83;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 5px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  width: 100px;
+  display: block;
+  padding: 15px 5px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-right: 25px;
+}
+
+button {
+  background-color: white;
+  margin-left: 10px;
+  padding: 10px;
+  width: 90px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #C6E5F3;
+  border-color: gold;
+}
+button a {
+  color: #084A83;
+  font-weight: bold;
+  font-size: 15px;
+}
+li a:hover{
+  background: #c6e5f3;
+  text-transform: uppercase;
+  color: #084a83;
+  font-weight: bold;
+  border-radius: 25px;
+}
+.cate{
+  margin-top: 62%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:40px;
+  font-weight: 30px;
+  color: black;
+  text-decoration: underline #c6e5f3;
+}
+.categories{
+  display: flex;
+  float: left;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 25px;
+  column-gap: 25px;
+}
+.img1:hover{
+  border: 3px solid gold;
+}
+.img2:hover{
+  border: 3px solid gold;
+}
+.img3:hover{
+  border: 3px solid gold;
+}
+.img4:hover{
+  border: 3px solid gold;
+}
+.img5:hover{
+  border: 3px solid gold;
+}
+.img6:hover{
+  border: 3px solid gold;
+}
+.img7:hover{
+  border: 3px solid gold;
+}
+.img8:hover{
+  border: 3px solid gold;
+}
+.img9:hover{
+  border: 3px solid gold;
+}
+
+.img1{
+  width: 450px;
+  height: 350px;
+}
+.img2{
+  width: 450px;
+  height: 350px;
+}
+.img3{
+  width: 450px;
+  height: 350px;
+}
+.img4{
+  width: 450px;
+  height: 350px;
+}
+.img5{
+  width: 450px;
+  height: 350px;
+}
+.img6{
+  width: 450px;
+  height: 350px;
+}
+.img7{
+  width: 450px;
+  height: 350px;
+}
+.img8{
+  width: 450px;
+  height: 350px;
+}
+.img9{
+  width: 450px;
+  height: 350px;
+}
+
+.brand{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:40px;
+  font-weight: 30px;
+  color: black;
+  text-decoration: underline #c6e5f3;
+  margin-top: 2100px;
+}
+
+.brand1{
+  display: flex;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 25px;
+  column-gap: 25px;
+  
+}
+.imgi{
+  width: 450px;
+  height: 350px;
+}
+.imgii{
+  width: 450px;
+  height: 350px;
+}
+.imgiii{
+  width: 450px;
+  height: 350px;
+}
+.imgiv{
+  width: 450px;
+  height: 350px;
+}
+.imgv{
+  width: 450px;
+  height: 350px;
+}
+.imgvi{
+  width: 450px;
+  height: 350px;
+}
+.imgi:hover{
+  border: 3px solid gold;
+}
+.imgii:hover{
+  border: 3px solid gold;
+}
+.imgiii:hover{
+  border: 3px solid gold;
+}
+.imgiv:hover{
+  border: 3px solid gold;
+}
+.imgv:hover{
+  border: 3px solid gold;
+}
+.imgvi:hover{
+  border: 3px solid gold;
+}
+
+.slider{
+  width: 176vmin;
+  position: absolute;
+  top: 350%;
+  left: 50%;
+  transform: translate(-50%,5%);
+  overflow: hidden;
+}
+
+.sliderImg{
+  width: 100%;
+  display: flex;
+  animation: infinite slide 12s ;
+}
+
+img{
+  width: 100%;
+}
+.slider1{
+  height: auto;
+  width: 170vmin;
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%,5%);
+  overflow: hidden;
+}
+
+.sliderImg1{
+  height: auto;
+  width: auto;
+  display: flex;
+  animation: infinite slide 20s ;
+}
+
+@keyframes slide{
+  0%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(0);
+  }
+  30%{
+    transform: translateX(-100%);
+  }
+  50%{
+    transform: translateX(-100%);
+  }
+  55%{
+    transform: translateX(-200%);
+  }
+  75%{
+    transform: translateX(-200%);
+  }
+  80%{
+    transform: translateX(-300%);
+  }
+  100%{
+    transform: translateX(-300%);
+  } 
+}
+
+footer{
+  margin-top: 1000px;
+} 
+
+.container{
+	max-width: 1200px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #084A83;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 20px;
+}
+.footer-col h4{
+	font-size: 20px;
+	color: white;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #529DDA;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 15px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: white;
+	text-decoration: none;
+	font-weight: 300;
+	color: #C6E5F3;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: white;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: #C6E5F3;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #084A83;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #C6E5F3;
+	background-color: #529DDA;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.up{
+  position: absolute;
+  margin-bottom: 50px;
+  right: 100px;
+  height: 50px;
+	width: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #084A83;
+	background-color: #C6E5F3;
+	text-align: center;
+	line-height: 40px;
+}

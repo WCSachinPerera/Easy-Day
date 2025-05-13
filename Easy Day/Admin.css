@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #c6e5f3 0%, #529dda 35%, #084a83 100%);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  input[type="file"],
+  input[type="number"],
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #529dda;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #084a83;
+  }
+  select:focus {
+    border-color: #529dda;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(82, 157, 218, 0.3);
+  }
+  
